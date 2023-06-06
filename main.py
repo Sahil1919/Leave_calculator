@@ -20,7 +20,7 @@ warnings.filterwarnings('ignore')
 
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
-poppler_path = 'D:/poppler-0.68.0/bin'
+poppler_path = 'C:/poppler-0.68.0/bin'
 
 def pdf_extraction(text):
     global leave,month,year
